@@ -8,4 +8,8 @@ $(document).ready(function() {
     $('.modal').fadeOut();
   });
 
+  $('.submit').on('click', function() {
+    $('input').addClass('error');
+  });
+
 });
