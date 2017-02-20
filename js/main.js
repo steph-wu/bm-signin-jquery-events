@@ -12,4 +12,8 @@ $(document).ready(function() {
     $('input').addClass('error');
   });
 
+  $('input').on('click', function() {
+    $(this).removeClass('error');
+  });
+
 });
